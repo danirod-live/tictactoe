@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css" />
+    </head>
+
+<body>
+    <div class="matchmaking">Emparejando, espera...</div>
+    <div class="game" hidden>
+    <p>Juegas con <span class="iam"></span></p>
+    <div class="row">
+        <button class="position" data-x="1" data-y="1"></button>
+        <button class="position" data-x="2" data-y="1"></button>
+        <button class="position" data-x="3" data-y="1"></button>
+    </div>
+    <div class="row">
+        <button class="position" data-x="1" data-y="2"></button>
+        <button class="position" data-x="2" data-y="2"></button>
+        <button class="position" data-x="3" data-y="2"></button>
+    </div>
+    <div class="row">
+        <button class="position" data-x="1" data-y="3"></button>
+        <button class="position" data-x="2" data-y="3"></button>
+        <button class="position" data-x="3" data-y="3"></button>
+    </div>
+    </div>
+
+    <p class="yourturn" hidden>Es tu turno.</p>
+
+    <p class="ganador"></p>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
